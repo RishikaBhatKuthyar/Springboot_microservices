@@ -34,4 +34,5 @@ public class EmployeeDto {
     @Email(message="Should be in the format abc@gmail.com ")
     private String email;
     private String departmentCode;
+    private String organizationCode;
 }
